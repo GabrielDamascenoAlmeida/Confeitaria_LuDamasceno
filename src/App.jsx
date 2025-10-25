@@ -6,6 +6,9 @@ import tortalimao from './assets/images/torta-limao.png'
 import choco from './assets/images/bolo-chocolate.png'
 import redvelvet from './assets/images/Bolo-redvelvet_morangos_encima.png'
 import prestigio from './assets/images/prestigio.png'
+import amor from './assets/Favorite.svg'
+import medalha from './assets/Warranty.svg'
+import confeiteira from './assets/images/confeiteira.jpg'
 
 import './App.css'
 
@@ -27,11 +30,17 @@ function App() {
                     Entre em contato
                   </div>
               </div>
-              
+              <div id='div_icones'>
+                <img src={amor} alt="Ícone de coração" /><p>Feito com amor</p>
+                <img src={medalha} alt="Ícone de medalha" /><p>Alta qualidade</p>
+              </div>
             </div>
           }
           imagem={redvelvet}
 
+        />
+        <SectionProps
+         imagem={confeiteira}
         />
         <Footer />
     </main>
