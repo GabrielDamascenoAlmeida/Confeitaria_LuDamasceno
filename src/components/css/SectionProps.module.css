@@ -1,0 +1,23 @@
+#section_props {
+    position: relative;
+    background-color: #FAF3F6;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#section_props h1 {
+    font-family: "Great Vibes", cursive;
+    color: #957481;
+    font-size: 100px;
+    line-height: 80px;
+}
+
+#section_props img {
+    width: 30%;
+    height: 450px;
+    border-radius: 20px;
+}
