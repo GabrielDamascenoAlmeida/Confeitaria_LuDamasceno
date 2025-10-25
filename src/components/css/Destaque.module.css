@@ -1,0 +1,28 @@
+#section_destaque {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 870px;
+    text-align: center;
+}
+#section_destaque h1{
+    margin-top: 60px;
+    font-size: 65px;
+    font-family: "Great Vibes", cursive;
+    color: #7A6962;
+}
+
+#section_destaque p{
+    font-size: 24px;
+}
+
+#card_produto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: aquamarine;
+}

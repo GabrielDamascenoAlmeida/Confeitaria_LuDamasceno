@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Destaque from './components/Destaque'
 import SectionProps from './components/SectionProps'
 import Footer from './components/Footer'
 
@@ -37,9 +38,17 @@ function App() {
             </div>
           }
           imagem={redvelvet}
-
         />
+        <Destaque />
         <SectionProps
+         conteudo1={
+            <div id='section_sobre'>
+                <h1>Nossa história</h1>
+                <p>A Confeitaria Lu Damasceno nasceu do sonho de criar doces únicos e especiais. Cada receita é desenvolvida com carinho e ingredientes selecionados, garantindo sabores inesquecíveis.</p>
+                <br />
+                <p>Nossa paixão pela confeitaria se reflete em cada detalhe, desde a escolha dos ingredientes até a apresentação final. Acreditamos que cada doce tem o poder de criar momentos especiais e memórias afetivas.</p>
+            </div>
+         }
          imagem={confeiteira}
         />
         <Footer />

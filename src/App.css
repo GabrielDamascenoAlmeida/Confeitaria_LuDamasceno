@@ -88,7 +88,13 @@ div p {
 }
 
 #section_sobre {
-  background-color: #6D006B;
-  height: 100%;
-  width: 100%;
+  width: 45%;
+}
+
+#section_sobre h1{
+  margin-bottom: 90px;
+}
+
+#section_sobre p{
+  margin-top: 30px;
 }
