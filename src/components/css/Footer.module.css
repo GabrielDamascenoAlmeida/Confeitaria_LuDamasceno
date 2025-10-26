@@ -85,6 +85,12 @@ h2 {
     width: 60px;
     height: 60px;
     border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+.rede:hover {
+    background-color: #FFB0CE;
+    cursor: pointer;
 }
 
 @media (max-width: 1564px) {
@@ -108,7 +114,7 @@ h2 {
 
 @media (max-width: 674px) {
     footer {
-        height: 920px;
+        height: 875px;
     }
     footer section {
         display: flex;
@@ -127,7 +133,7 @@ h2 {
         width: 400px;
     }
     #minlogo {
-        width: 540px;
+        width: 460px;
     }
     .larguradiv p{
         width: 470px;

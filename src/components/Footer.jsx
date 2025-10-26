@@ -21,7 +21,6 @@ export default function Footer() {
                     <div className={style.larguradiv} id={style.larguradiv}>
                         <h2>Contato</h2>
                         <div id={style.texto_meio}>
-                            <p><img src={location} alt="Ícone de " className={style.minicon}/> Rua das Delícias, 123 - Centro</p>
                             <p><img src={phone} alt="Ícone de " className={style.minicon}/> (11) 98615-2515</p>
                             <p><img src={letter} alt="Ícone de " className={style.minicon}/> lucinalvaalmeida@gmail.com</p>
                         </div>
@@ -29,8 +28,8 @@ export default function Footer() {
                         <div className={style.larguradiv}>
                         <h2>Nos siga</h2>
                         <div id={style.sociais}>
-                            <div className={style.rede}><img src={insta} alt="Logo instagram" /></div>
-                            <div className={style.rede}><img src={face} alt="Logo facebook" /></div>
+                            <a href="https://www.instagram.com/confeitarialudamasceno?utm_source=qr&igsh=MWxwODB1MDhxYmM5aQ%3D%3D" target='blanc'><div className={style.rede}><img src={insta} alt="Logo instagram" /></div></a>
+                            <a href=""><div className={style.rede}><img src={face} alt="Logo facebook" /></div></a>
                         </div>
                         <p>Horário de funcionamento:</p>
                         <p>Seg - Sex: 8h às 18h</p>

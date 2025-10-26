@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Destaque from './components/Destaque'
 import SectionProps from './components/SectionProps'
+import Avaliacao from './components/Avaliacao'
 import Footer from './components/Footer'
 
 import tortalimao from './assets/images/torta-limao.png'
@@ -27,9 +28,9 @@ function App() {
                   <div className='botao' id='botao1'>
                     Ver Produtos →
                   </div>
-                  <div className='botao' id='botao2'>
+                  <a href=""><div className='botao' id='botao2'>
                     Entre em contato
-                  </div>
+                  </div></a>
               </div>
               <div id='div_icones'>
                 <img src={amor} alt="Ícone de coração" /><p>Feito com amor</p>
@@ -44,13 +45,14 @@ function App() {
          conteudo1={
             <div id='section_sobre'>
                 <h1>Nossa história</h1>
-                <p>A Confeitaria Lu Damasceno nasceu do sonho de criar doces únicos e especiais. Cada receita é desenvolvida com carinho e ingredientes selecionados, garantindo sabores inesquecíveis.</p>
+                <p>A Confeitaria da Lucinalva Damasceno nasceu do sonho de criar doces únicos e especiais. Cada receita é desenvolvida com carinho e ingredientes selecionados, garantindo sabores inesquecíveis.</p>
                 <br />
                 <p>Nossa paixão pela confeitaria se reflete em cada detalhe, desde a escolha dos ingredientes até a apresentação final. Acreditamos que cada doce tem o poder de criar momentos especiais e memórias afetivas.</p>
             </div>
          }
          imagem={confeiteira}
         />
+        <Avaliacao />
         <Footer />
     </main>
   )
