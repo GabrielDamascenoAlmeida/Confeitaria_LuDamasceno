@@ -32,8 +32,8 @@ export default function Footer() {
                             <a href="https://wa.me/5511986152515" target='_blank'><div className={style.rede}><img src={zapp} alt="Logo facebook" id={style.zapp}/></div></a>
                         </div>
                         <p>Horário de funcionamento:</p>
-                        <p>Seg - Sex: 8h às 18h</p>
-                        <p>Sáb - Dom: 8h às 16h</p>
+                        <p>Segunda - Sexta: 8h às 18h</p>
+                        <p>Sábado - Domingo: 8h às 16h</p>
                     </div>
                 </div>
                 

@@ -14,13 +14,13 @@ export default function Destaque() {
                 <CardProps 
                     background={choco}
                     titulo={'Bolo de chocolate Premium'}
-                    texto={'Bolo de chocolate belga com recheio de brigadeiro gourmet.'}
+                    texto={'Bolo massa de chocolate com recheio e cobertura de brigadeiro gourmet.'}
                     preco={' 130,00'}
                 />
                 <CardProps 
                     background={prestigio}
                     titulo={'Bolo de Prestígio'}
-                    texto={'Bolo de com recheio de prestígio acompanhado com doces em cima.'}
+                    texto={'Bolo com recheio de prestígiom, acompanhado por beijinhos.'}
                     preco={' 125,00'}
                 />
                 <CardProps 

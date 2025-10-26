@@ -134,12 +134,12 @@ h2 {
     }
     .larguradiv {
         margin-top: 20px;
-        width: 400px;
+        width: 100%;
     }
     #minlogo {
-        width: 460px;
+        width: 100%;
     }
     .larguradiv p{
-        width: 470px;
+        width: 100%;
     }
 }
