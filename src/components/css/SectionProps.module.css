@@ -22,6 +22,17 @@
     border-radius: 20px;
 }
 
-.section_sobre {
-    
+@media (max-width: 1025px) {
+    #section_props {
+    width: 100%;
+    height: 1270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+    #section_props img {
+    width: 70%;
+}
 }
