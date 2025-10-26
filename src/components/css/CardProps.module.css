@@ -47,6 +47,7 @@ a {
 }
 
 
+
 #div_inferior  p { 
     font-size: 20px;
     margin-left: 20px;
@@ -77,5 +78,14 @@ a {
 @media (max-width: 1300px) {
     .cards {
       width: 80%;
+    }
+
+    #div_inferior h2 {
+      margin-left: 10px;
+    }
+
+    #button {
+      width: 100px;
+      font-size: 15px;
     }
 }

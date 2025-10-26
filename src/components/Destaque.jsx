@@ -30,10 +30,6 @@ export default function Destaque() {
                     preco={' 360,00'}
                 />
             </div>
-
-            <div id={style.button_products} title='Em breve'>
-                <p>ver todos os produtos →</p>
-            </div>
                 
         </section>
     )

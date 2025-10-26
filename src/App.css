@@ -8,15 +8,30 @@ main {
   width: 100%;
   height:2000px;
   background-color: #fafafa;
+  overflow-x: hidden;
 }
 
 #section_div {
   width: 45%;
+  max-width: 100%;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+#section_div h1,
+#section_div p {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
 }
 
 div p {
   width: 100%;
   font-size: 24px;
+  word-wrap: break-word;
+  overflow: visible;
 }
 #h1_p {
   font-family: "Great Vibes", cursive;
@@ -27,6 +42,8 @@ div p {
 #div_but {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .botao {
@@ -75,6 +92,7 @@ div p {
   flex-direction: row;
   align-items: center;
   gap: 2px;
+  flex-wrap: wrap;
 }
 
 #div_icones img{
@@ -90,6 +108,18 @@ div p {
 
 #section_sobre {
   width: 50%;
+  max-width: 100%;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+#section_sobre h1,
+#section_sobre p {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
 }
 
 #section_sobre h1{
