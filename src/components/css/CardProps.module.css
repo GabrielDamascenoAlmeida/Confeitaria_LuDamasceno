@@ -1,0 +1,77 @@
+* {
+  position: relative;
+}
+
+.cards {
+  width: 32%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
+
+#div_superior {
+  background-color: white;
+  height: 300px;
+  width: 84%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#div_inferior {
+  background-color: white;
+  height: 290px;
+  width: 84%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: left;
+  font-size: 16px;
+  border: 1px solid rgb(228, 227, 227);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+#div_inferior h2 {
+  color: #7a6962;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+
+#div_inferior  p { 
+    font-size: 20px;
+    margin-left: 20px;
+    max-width: 90%;
+    flex-grow: 1;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    text-overflow: ellipsis;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background: linear-gradient( to right, #FFB0CE,#F0BBFE);
+    transition: all 0.3s ease;
+}
+
+#button:hover {
+  width: 160px;
+  height: 50px;
+  cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+    .cards {
+      width: 600px;
+      
+    }
+}

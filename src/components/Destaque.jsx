@@ -1,4 +1,9 @@
 import style from './css/Destaque.module.css'
+import tortalimao from '../assets/images/torta-limao.png'
+import choco from '../assets/images/bolo-chocolate.png'
+import girassol from '../assets/images/girassois.png'
+import prestigio from '../assets/images/prestigio.png'
+import CardProps from './CardProps'
 
 export default function Destaque() {
     return (
@@ -6,8 +11,30 @@ export default function Destaque() {
             <h1>Produtos mais vendidos</h1>
             <p>Conheça alguns dos nossos produtos mais queridos pelos clientes</p>
             <div id={style.card_produto}>
-
+                <CardProps 
+                    background={choco}
+                    titulo={'Bolo de chocolate Premium'}
+                    texto={'Bolo de chocolate belga com recheio de brigadeiro gourmet.'}
+                    preco={' 60,00'}
+                />
+                <CardProps 
+                    background={prestigio}
+                    titulo={'Bolo de Prestígio'}
+                    texto={'Bolo de com recheio de prestígio acompanhado com doces em cima.'}
+                    preco={' 68,00'}
+                />
+                <CardProps 
+                    background={girassol}
+                    titulo={'Bolos customizáveis'}
+                    texto={'São os bolos em que os clientes podem pedir customização, como, personagens, temas e formas.'}
+                    preco={' 68,00'}
+                />
             </div>
+
+            <div id={style.button_products}>
+                <p>ver todos os produtos →</p>
+            </div>
+                
         </section>
     )
 }
