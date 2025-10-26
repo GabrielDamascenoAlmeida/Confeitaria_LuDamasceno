@@ -25,10 +25,10 @@ function App() {
               <h1>Doces que <p id='h1_p'>encantam</p></h1>
               <p>Criamos momentos especiais com bolos, doces e sobremesas artesanais, feitos com ingredientes selecionados e muito carinho.</p>
               <div id='div_but'>
-                  <div className='botao' id='botao1'>
+                  <div className='botao' id='botao1' title='Em breve'>
                     Ver Produtos →
                   </div>
-                  <a href=""><div className='botao' id='botao2'>
+                  <a href="https://wa.me/5511986152515" target='_blank'><div className='botao' id='botao2'>
                     Entre em contato
                   </div></a>
               </div>

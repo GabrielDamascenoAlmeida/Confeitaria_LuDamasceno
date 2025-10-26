@@ -1,0 +1,38 @@
+#card_coment {
+    width: 360px;
+    height: 250px;
+    border-radius: 16px;
+    background-color: #FCD5E4;
+}
+
+#card_coment p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#stars_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#stars {
+    width: 38px;
+    height: 38px;
+}
+
+@media (max-width: 1250px) {
+    #card_coment {
+        width: 90%;
+        height: 270px;
+}
+
+#card_coment p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+}

@@ -66,6 +66,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+#zapp {
+    width: 50%;
+}
+
 #linha {
     background-color: #fafaff;
     width: 95%;

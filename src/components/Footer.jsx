@@ -3,7 +3,7 @@ import location from '../assets/Location.svg'
 import phone from '../assets/Phone.svg'
 import letter from '../assets/Letter.svg'
 import insta from '../assets/instas.svg'
-import face from '../assets/Facebook.svg'
+import zapp from '../assets/zapp.svg'
 import style from './css/Footer.module.css' 
 
 export default function Footer() {
@@ -28,8 +28,8 @@ export default function Footer() {
                         <div className={style.larguradiv}>
                         <h2>Nos siga</h2>
                         <div id={style.sociais}>
-                            <a href="https://www.instagram.com/confeitarialudamasceno?utm_source=qr&igsh=MWxwODB1MDhxYmM5aQ%3D%3D" target='blanc'><div className={style.rede}><img src={insta} alt="Logo instagram" /></div></a>
-                            <a href=""><div className={style.rede}><img src={face} alt="Logo facebook" /></div></a>
+                            <a href="https://www.instagram.com/confeitarialudamasceno?utm_source=qr&igsh=MWxwODB1MDhxYmM5aQ%3D%3D" target='_blank'><div className={style.rede}><img src={insta} alt="Logo instagram" /></div></a>
+                            <a href="https://wa.me/5511986152515" target='_blank'><div className={style.rede}><img src={zapp} alt="Logo facebook" id={style.zapp}/></div></a>
                         </div>
                         <p>Horário de funcionamento:</p>
                         <p>Seg - Sex: 8h às 18h</p>

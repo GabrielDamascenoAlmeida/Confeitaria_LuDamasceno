@@ -2,6 +2,11 @@
   position: relative;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .cards {
   width: 32%;
   height: auto;
@@ -72,6 +77,5 @@
 @media (max-width: 1300px) {
     .cards {
       width: 80%;
-      
     }
 }

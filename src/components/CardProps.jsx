@@ -11,10 +11,12 @@ export default function CardProps ({background, preco, titulo, texto}) {
                 <h2>{titulo}</h2>
                 <p>{texto}</p>
                 <div style={{display:'flex', justifyContent: 'space-between', alignItems:'center ',margin:'auto',  marginTop:'50px', width:'85%'}}>
-                    <h2 style={{color:'#FFB0CE', marginBottom: '0px', marginTop:'0px' }}>R${preco}</h2>
-                    <div id={style.button}>
-                        Encomendar
-                    </div>
+                    <h2 style={{color:'#FFB0CE', marginBottom: '0px', marginTop:'0px' }} id={style.preco}>R${preco}</h2>
+                    <a href="https://wa.me/5511986152515" target='_blank'>
+                        <div id={style.button}>
+                            Encomendar
+                        </div>
+                    </a>
                 </div>
                 
             </div>

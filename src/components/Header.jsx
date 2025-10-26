@@ -10,8 +10,8 @@ export default function Header() {
             </div>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Pedido</a>
-                <a href="#">Produtos</a>
+                <a href="https://wa.me/5511986152515" target='_blank'>Pedido</a>
+                <a href="#" title='Em breve'>Produtos</a>
             </nav>
         </header>
     )

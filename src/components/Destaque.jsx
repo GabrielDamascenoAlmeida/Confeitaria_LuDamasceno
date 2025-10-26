@@ -15,23 +15,23 @@ export default function Destaque() {
                     background={choco}
                     titulo={'Bolo de chocolate Premium'}
                     texto={'Bolo de chocolate belga com recheio de brigadeiro gourmet.'}
-                    preco={' 60,00'}
+                    preco={' 130,00'}
                 />
                 <CardProps 
                     background={prestigio}
                     titulo={'Bolo de Prestígio'}
                     texto={'Bolo de com recheio de prestígio acompanhado com doces em cima.'}
-                    preco={' 68,00'}
+                    preco={' 125,00'}
                 />
                 <CardProps 
                     background={girassol}
                     titulo={'Bolos customizáveis'}
                     texto={'São os bolos em que os clientes podem pedir customização, como, personagens, temas e formas.'}
-                    preco={' 68,00'}
+                    preco={' 360,00'}
                 />
             </div>
 
-            <div id={style.button_products}>
+            <div id={style.button_products} title='Em breve'>
                 <p>ver todos os produtos →</p>
             </div>
                 
